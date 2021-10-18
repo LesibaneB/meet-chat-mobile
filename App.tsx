@@ -1,30 +1,28 @@
-import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import React, {createContext, useEffect} from 'react';
+import * as eva from '@eva-design/eva';
+
+import MainScreen from './src/screens/Main';
+import {observer} from 'mobx-react';
+import {RootStore} from './src/store/root-store';
+import IncomingCallModal from './src/components/IncomingCallModal';
+import {ApplicationProvider} from '@ui-kitten/components';
+
+export const RootStoreContext = createContext<RootStore>({} as RootStore);
+const rootStore = new RootStore();
 
 const App = () => {
+  useEffect(() => {
+    console.log(' App rendered!');
+  }, []);
+
   return (
-    <SafeAreaView>
-      <StatusBar barStyle={'light-content'} />
-      <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <View>
-          <Text style={{fontSize: 20}}>Hello Meet Chat App</Text>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <ApplicationProvider {...eva} theme={eva.light}>
+      <RootStoreContext.Provider value={rootStore}>
+        <MainScreen />
+        <IncomingCallModal />
+      </RootStoreContext.Provider>
+    </ApplicationProvider>
   );
 };
 
-const styles = StyleSheet.create({
-  highlight: {
-    fontWeight: '700',
-  },
-});
-
-export default App;
+export default observer(App);
