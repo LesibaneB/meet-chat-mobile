@@ -3,10 +3,7 @@ import {io} from 'socket.io-client';
 export class SocketService {
   private socket;
   constructor() {
-    this.socket = io('');
-
-    console.log('Socket created');
-
+    this.socket = io('ws://192.168.0.103:3000');
     this.socket.on('connect', () => {
       console.log('Socket is Open');
     });
