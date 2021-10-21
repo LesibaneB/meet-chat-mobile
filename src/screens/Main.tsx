@@ -1,4 +1,4 @@
-import React, {useContext, useEffect} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {StyleSheet} from 'react-native';
 import {
   responsiveHeight,
@@ -11,15 +11,24 @@ import {Button, Input, Layout, Text} from '@ui-kitten/components';
 interface Props {}
 
 const MainScreen = ({}: Props): JSX.Element => {
-  const {messageStore} = useContext(RootStoreContext);
+  const [connectionId, setConnectionId] = useState('');
+  const {sendPreOffer} = useContext(RootStoreContext).messageStore;
   return (
     <Layout style={styles.layout}>
       <Input
         style={styles.connectionIdInput}
         label="Connection ID"
+        value={connectionId}
+        onChangeText={nextValue => setConnectionId(nextValue)}
         placeholder="Enter connection ID"
       />
-      <Button style={styles.startCallButton}>Start Call</Button>
+      <Button
+        onPress={() =>
+          sendPreOffer({calleeId: connectionId, callType: 'video'})
+        }
+        style={styles.startCallButton}>
+        Start Call
+      </Button>
     </Layout>
   );
 };

@@ -9,27 +9,9 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* MeetChatMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MeetChatMobileTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		6172F2D35A4C3AA820D92908 /* libPods-MeetChatMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-MeetChatMobile.a */; };
-		7EF68E3733C33B6898317E18 /* libPods-MeetChatMobile-MeetChatMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-MeetChatMobile-MeetChatMobileTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		943CA0CC98B74F2EB42C2DB6 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E24C4F250BC41EB853B6796 /* AntDesign.ttf */; };
-		BC49E29D875E48DD8B1B6972 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B6AC205807B4358B68E469C /* Entypo.ttf */; };
-		DA987C5BDC3E44CCB15CC711 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F056FE2AA84C8182F43F2E /* EvilIcons.ttf */; };
-		8DA60BCBC57A4D2ABCBD93FF /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC9FA5F8B52347F1AC1BA7BB /* Feather.ttf */; };
-		EC0F834A31C143C3AD1E00DC /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 350E5E82459242A0A6B10447 /* FontAwesome.ttf */; };
-		A1FA22960DC8457195BA9592 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB22021B1DAF406A89D8D23A /* FontAwesome5_Brands.ttf */; };
-		D492152FF9D347EA9F111FE5 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72D95645837C4B40AE98EC3A /* FontAwesome5_Regular.ttf */; };
-		87BB56F9863B47059EB51601 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C7AD08657D9402F862D6183 /* FontAwesome5_Solid.ttf */; };
-		0A2110A16E364F6ABA1016BC /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F465E3D3733C448BA9832326 /* Fontisto.ttf */; };
-		5469D24269F54D0984BF6995 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3357E28220B645988E6AB746 /* Foundation.ttf */; };
-		502752F3D0BD428F815F04EC /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 989AE41AB3C64F11BA6CD6A5 /* Ionicons.ttf */; };
-		79BA55C584F7449487ACD32F /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17ED7E13F07D42EB95FD96E5 /* MaterialCommunityIcons.ttf */; };
-		7F2C42446C134E819FA7421D /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B39968EFCD614A29A1A39522 /* MaterialIcons.ttf */; };
-		BA7298A893D0408CB684667D /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC480C7FA2DE4149A2B16662 /* Octicons.ttf */; };
-		B2A44EC09067414BA30913EF /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA70FCB47EC84AF18DD80DD1 /* SimpleLineIcons.ttf */; };
-		B60AC434DA42443D81118715 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08003886D6B441FAAA53831D /* Zocial.ttf */; };
+		E041C4BA2314CEF468590F19 /* libPods-MeetChatMobile-MeetChatMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFEA50303E8FA50BA99C141 /* libPods-MeetChatMobile-MeetChatMobileTests.a */; };
+		ED357A35782ED8539D37611B /* libPods-MeetChatMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4390789161AC4CBF7022BB80 /* libPods-MeetChatMobile.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,36 +28,36 @@
 		00E356EE1AD99517003FC87E /* MeetChatMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetChatMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MeetChatMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeetChatMobileTests.m; sourceTree = "<group>"; };
+		08003886D6B441FAAA53831D /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MeetChatMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetChatMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MeetChatMobile/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MeetChatMobile/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MeetChatMobile/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MeetChatMobile/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MeetChatMobile/main.m; sourceTree = "<group>"; };
-		1D0AE47A65C8663E3B452821 /* Pods-MeetChatMobile-MeetChatMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetChatMobile-MeetChatMobileTests.release.xcconfig"; path = "Target Support Files/Pods-MeetChatMobile-MeetChatMobileTests/Pods-MeetChatMobile-MeetChatMobileTests.release.xcconfig"; sourceTree = "<group>"; };
-		6423831EA8574132BED9D8CC /* libPods-MeetChatMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetChatMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C97AB639B58BBB4B15BBE30 /* Pods-MeetChatMobile-MeetChatMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetChatMobile-MeetChatMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-MeetChatMobile-MeetChatMobileTests/Pods-MeetChatMobile-MeetChatMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		17ED7E13F07D42EB95FD96E5 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		1B6AC205807B4358B68E469C /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		3357E28220B645988E6AB746 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		350E5E82459242A0A6B10447 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		3E24C4F250BC41EB853B6796 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		4390789161AC4CBF7022BB80 /* libPods-MeetChatMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetChatMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D95645837C4B40AE98EC3A /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		77F056FE2AA84C8182F43F2E /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MeetChatMobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ABFE59519B596E51CEFDCCC0 /* libPods-MeetChatMobile-MeetChatMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetChatMobile-MeetChatMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0A881CF5CF3F2B244570E2A /* Pods-MeetChatMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetChatMobile.debug.xcconfig"; path = "Target Support Files/Pods-MeetChatMobile/Pods-MeetChatMobile.debug.xcconfig"; sourceTree = "<group>"; };
-		D00AAFFCFCFDA5787532823F /* Pods-MeetChatMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetChatMobile.release.xcconfig"; path = "Target Support Files/Pods-MeetChatMobile/Pods-MeetChatMobile.release.xcconfig"; sourceTree = "<group>"; };
+		86E3E6D1EB46816BA5419A19 /* Pods-MeetChatMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetChatMobile.release.xcconfig"; path = "Target Support Files/Pods-MeetChatMobile/Pods-MeetChatMobile.release.xcconfig"; sourceTree = "<group>"; };
+		8C7AD08657D9402F862D6183 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		989AE41AB3C64F11BA6CD6A5 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		AEFEA50303E8FA50BA99C141 /* libPods-MeetChatMobile-MeetChatMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetChatMobile-MeetChatMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39968EFCD614A29A1A39522 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		BC480C7FA2DE4149A2B16662 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		CB22021B1DAF406A89D8D23A /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		CB82487D447E00C7696ADED4 /* Pods-MeetChatMobile-MeetChatMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetChatMobile-MeetChatMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-MeetChatMobile-MeetChatMobileTests/Pods-MeetChatMobile-MeetChatMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC9FA5F8B52347F1AC1BA7BB /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		D3481AEE4C02A1358ACF71FD /* Pods-MeetChatMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetChatMobile.debug.xcconfig"; path = "Target Support Files/Pods-MeetChatMobile/Pods-MeetChatMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		EA70FCB47EC84AF18DD80DD1 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		EC625243DEE236ABBC85A846 /* Pods-MeetChatMobile-MeetChatMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetChatMobile-MeetChatMobileTests.release.xcconfig"; path = "Target Support Files/Pods-MeetChatMobile-MeetChatMobileTests/Pods-MeetChatMobile-MeetChatMobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		3E24C4F250BC41EB853B6796 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1B6AC205807B4358B68E469C /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		77F056FE2AA84C8182F43F2E /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CC9FA5F8B52347F1AC1BA7BB /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		350E5E82459242A0A6B10447 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CB22021B1DAF406A89D8D23A /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		72D95645837C4B40AE98EC3A /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8C7AD08657D9402F862D6183 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F465E3D3733C448BA9832326 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3357E28220B645988E6AB746 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		989AE41AB3C64F11BA6CD6A5 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		17ED7E13F07D42EB95FD96E5 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B39968EFCD614A29A1A39522 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BC480C7FA2DE4149A2B16662 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EA70FCB47EC84AF18DD80DD1 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		08003886D6B441FAAA53831D /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F465E3D3733C448BA9832326 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF68E3733C33B6898317E18 /* libPods-MeetChatMobile-MeetChatMobileTests.a in Frameworks */,
+				E041C4BA2314CEF468590F19 /* libPods-MeetChatMobile-MeetChatMobileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6172F2D35A4C3AA820D92908 /* libPods-MeetChatMobile.a in Frameworks */,
+				ED357A35782ED8539D37611B /* libPods-MeetChatMobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,58 +114,25 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6423831EA8574132BED9D8CC /* libPods-MeetChatMobile.a */,
-				ABFE59519B596E51CEFDCCC0 /* libPods-MeetChatMobile-MeetChatMobileTests.a */,
+				4390789161AC4CBF7022BB80 /* libPods-MeetChatMobile.a */,
+				AEFEA50303E8FA50BA99C141 /* libPods-MeetChatMobile-MeetChatMobileTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+		7390B9F95E26C120BF5745B4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				D3481AEE4C02A1358ACF71FD /* Pods-MeetChatMobile.debug.xcconfig */,
+				86E3E6D1EB46816BA5419A19 /* Pods-MeetChatMobile.release.xcconfig */,
+				CB82487D447E00C7696ADED4 /* Pods-MeetChatMobile-MeetChatMobileTests.debug.xcconfig */,
+				EC625243DEE236ABBC85A846 /* Pods-MeetChatMobile-MeetChatMobileTests.release.xcconfig */,
 			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
-		83CBB9F61A601CBA00E9B192 = {
-			isa = PBXGroup;
-			children = (
-				13B07FAE1A68108700A75B9A /* MeetChatMobile */,
-				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* MeetChatMobileTests */,
-				83CBBA001A601CBA00E9B192 /* Products */,
-				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				E233CBF5F47BEE60B243DCF8 /* Pods */,
-				749538DFE2514EB7A61C3CC5 /* Resources */,
-			);
-			indentWidth = 2;
-			sourceTree = "<group>";
-			tabWidth = 2;
-			usesTabs = 0;
-		};
-		83CBBA001A601CBA00E9B192 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				13B07F961A680F5B00A75B9A /* MeetChatMobile.app */,
-				00E356EE1AD99517003FC87E /* MeetChatMobileTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E233CBF5F47BEE60B243DCF8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C0A881CF5CF3F2B244570E2A /* Pods-MeetChatMobile.debug.xcconfig */,
-				D00AAFFCFCFDA5787532823F /* Pods-MeetChatMobile.release.xcconfig */,
-				6C97AB639B58BBB4B15BBE30 /* Pods-MeetChatMobile-MeetChatMobileTests.debug.xcconfig */,
-				1D0AE47A65C8663E3B452821 /* Pods-MeetChatMobile-MeetChatMobileTests.release.xcconfig */,
-			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		749538DFE2514EB7A61C3CC5 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				3E24C4F250BC41EB853B6796 /* AntDesign.ttf */,
 				1B6AC205807B4358B68E469C /* Entypo.ttf */,
@@ -204,7 +153,38 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* MeetChatMobile */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* MeetChatMobileTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				749538DFE2514EB7A61C3CC5 /* Resources */,
+				7390B9F95E26C120BF5745B4 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* MeetChatMobile.app */,
+				00E356EE1AD99517003FC87E /* MeetChatMobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -213,12 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MeetChatMobileTests" */;
 			buildPhases = (
-				A130D646172E58E1D159D8F2 /* [CP] Check Pods Manifest.lock */,
+				555D88D6294FDAFBCCDBC2E2 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				077E01280D4B4AD18B2E1770 /* [CP] Embed Pods Frameworks */,
-				4E62BDF20514810D028A5FBF /* [CP] Copy Pods Resources */,
+				BCBF600E83EBDB449F642505 /* [CP] Embed Pods Frameworks */,
+				4C7B7946D7D17D2C3A8AE10B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,14 +214,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MeetChatMobile" */;
 			buildPhases = (
-				3E482C27206C4DEF2FE45063 /* [CP] Check Pods Manifest.lock */,
+				4254C14C5107F487E53F508E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				C8AC78B0264D0F9F6F6D630E /* [CP] Embed Pods Frameworks */,
-				ADC9DDC32298B72B3CF5DC8E /* [CP] Copy Pods Resources */,
+				9BDE0BB82594A81D9217CF79 /* [CP] Embed Pods Frameworks */,
+				3067F44D16EBCCBA7C2ADF53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,24 +280,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				943CA0CC98B74F2EB42C2DB6 /* AntDesign.ttf in Resources */,
-				BC49E29D875E48DD8B1B6972 /* Entypo.ttf in Resources */,
-				DA987C5BDC3E44CCB15CC711 /* EvilIcons.ttf in Resources */,
-				8DA60BCBC57A4D2ABCBD93FF /* Feather.ttf in Resources */,
-				EC0F834A31C143C3AD1E00DC /* FontAwesome.ttf in Resources */,
-				A1FA22960DC8457195BA9592 /* FontAwesome5_Brands.ttf in Resources */,
-				D492152FF9D347EA9F111FE5 /* FontAwesome5_Regular.ttf in Resources */,
-				87BB56F9863B47059EB51601 /* FontAwesome5_Solid.ttf in Resources */,
-				0A2110A16E364F6ABA1016BC /* Fontisto.ttf in Resources */,
-				5469D24269F54D0984BF6995 /* Foundation.ttf in Resources */,
-				502752F3D0BD428F815F04EC /* Ionicons.ttf in Resources */,
-				79BA55C584F7449487ACD32F /* MaterialCommunityIcons.ttf in Resources */,
-				7F2C42446C134E819FA7421D /* MaterialIcons.ttf in Resources */,
-				BA7298A893D0408CB684667D /* Octicons.ttf in Resources */,
-				B2A44EC09067414BA30913EF /* SimpleLineIcons.ttf in Resources */,
-				B60AC434DA42443D81118715 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,24 +300,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		077E01280D4B4AD18B2E1770 /* [CP] Embed Pods Frameworks */ = {
+		3067F44D16EBCCBA7C2ADF53 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MeetChatMobile-MeetChatMobileTests/Pods-MeetChatMobile-MeetChatMobileTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MeetChatMobile/Pods-MeetChatMobile-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MeetChatMobile-MeetChatMobileTests/Pods-MeetChatMobile-MeetChatMobileTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MeetChatMobile/Pods-MeetChatMobile-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetChatMobile-MeetChatMobileTests/Pods-MeetChatMobile-MeetChatMobileTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetChatMobile/Pods-MeetChatMobile-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3E482C27206C4DEF2FE45063 /* [CP] Check Pods Manifest.lock */ = {
+		4254C14C5107F487E53F508E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,7 +339,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4E62BDF20514810D028A5FBF /* [CP] Copy Pods Resources */ = {
+		4C7B7946D7D17D2C3A8AE10B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,7 +356,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetChatMobile-MeetChatMobileTests/Pods-MeetChatMobile-MeetChatMobileTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A130D646172E58E1D159D8F2 /* [CP] Check Pods Manifest.lock */ = {
+		555D88D6294FDAFBCCDBC2E2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -416,24 +378,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ADC9DDC32298B72B3CF5DC8E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MeetChatMobile/Pods-MeetChatMobile-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MeetChatMobile/Pods-MeetChatMobile-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetChatMobile/Pods-MeetChatMobile-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C8AC78B0264D0F9F6F6D630E /* [CP] Embed Pods Frameworks */ = {
+		9BDE0BB82594A81D9217CF79 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,6 +393,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetChatMobile/Pods-MeetChatMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCBF600E83EBDB449F642505 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeetChatMobile-MeetChatMobileTests/Pods-MeetChatMobile-MeetChatMobileTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeetChatMobile-MeetChatMobileTests/Pods-MeetChatMobile-MeetChatMobileTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetChatMobile-MeetChatMobileTests/Pods-MeetChatMobile-MeetChatMobileTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -502,7 +464,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C97AB639B58BBB4B15BBE30 /* Pods-MeetChatMobile-MeetChatMobileTests.debug.xcconfig */;
+			baseConfigurationReference = CB82487D447E00C7696ADED4 /* Pods-MeetChatMobile-MeetChatMobileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -529,7 +491,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D0AE47A65C8663E3B452821 /* Pods-MeetChatMobile-MeetChatMobileTests.release.xcconfig */;
+			baseConfigurationReference = EC625243DEE236ABBC85A846 /* Pods-MeetChatMobile-MeetChatMobileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -553,7 +515,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0A881CF5CF3F2B244570E2A /* Pods-MeetChatMobile.debug.xcconfig */;
+			baseConfigurationReference = D3481AEE4C02A1358ACF71FD /* Pods-MeetChatMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -579,7 +541,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D00AAFFCFCFDA5787532823F /* Pods-MeetChatMobile.release.xcconfig */;
+			baseConfigurationReference = 86E3E6D1EB46816BA5419A19 /* Pods-MeetChatMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
