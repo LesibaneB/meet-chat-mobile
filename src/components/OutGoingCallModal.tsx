@@ -13,17 +13,13 @@ import {Alert, Pressable, Modal, StyleSheet} from 'react-native';
 interface Props {}
 
 const OutGoingCallModal = ({}: Props): JSX.Element => {
-  const {outGoingCall, onRejectCall} =
-    useContext(RootStoreContext).messageStore;
+  const {outGoingCall, onRejectCall} = useContext(RootStoreContext).webRTCStore;
 
   return (
     <Modal
       presentationStyle="fullScreen"
       animationType="fade"
-      visible={outGoingCall}
-      onRequestClose={() => {
-        Alert.alert('Modal has been closed.');
-      }}>
+      visible={outGoingCall}>
       <Text style={styles.text}>Calling....</Text>
       <Layout style={styles.contentLayout}>
         <Avatar

@@ -9,6 +9,7 @@ import {observer} from 'mobx-react-lite';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import {Layout, Text} from '@ui-kitten/components';
 import {Pressable, Modal, StyleSheet} from 'react-native';
+import {MediaStream, RTCView} from 'react-native-webrtc';
 
 interface Props {}
 
@@ -24,12 +25,26 @@ const VideoCallModal = ({}: Props): JSX.Element => {
   //       setSeconds(0);
   //     }
   //   }, 1000);
-  const {inCall, onEndCall} = useContext(RootStoreContext).messageStore;
+  const {inCall, onEndCall, localStream} =
+    useContext(RootStoreContext).webRTCStore;
+
+  console.log(
+    'localStream here : ',
+    (localStream as unknown as MediaStream)?.getTracks(),
+  );
 
   return (
-    <Modal presentationStyle="fullScreen" animationType="fade" visible={inCall}>
+    <Modal presentationStyle="fullScreen" animationType="fade" visible={true}>
       <Text style={styles.text}>{`01:59`}</Text>
       <Layout style={styles.contentLayout}>
+        <Layout style={styles.rtcview}>
+          {localStream ? (
+            <RTCView
+              style={styles.rtc}
+              streamURL={(localStream as unknown as MediaStream)?.toURL()}
+            />
+          ) : null}
+        </Layout>
         <Layout style={styles.buttonLayout}>
           <Pressable
             onPress={onEndCall}
@@ -59,9 +74,9 @@ const styles = StyleSheet.create({
     width: responsiveWidth(40),
   },
   callButtonsBase: {
-    borderRadius: 50,
-    width: responsiveWidth(20),
-    height: responsiveHeight(10),
+    borderRadius: 10,
+    width: responsiveWidth(15),
+    height: responsiveHeight(7.5),
     marginTop: responsiveHeight(15),
   },
   rejectCallButton: {
@@ -70,13 +85,25 @@ const styles = StyleSheet.create({
     borderColor: 'red',
   },
   icon: {
-    marginTop: responsiveHeight(2.5),
-    marginLeft: responsiveWidth(5),
+    marginTop: responsiveHeight(1.8),
+    marginLeft: responsiveWidth(2.5),
   },
   text: {
     alignSelf: 'center',
     fontSize: responsiveFontSize(4),
     marginTop: responsiveHeight(15),
+  },
+  rtc: {
+    flex: 1,
+    width: '100%',
+    height: '100%',
+  },
+  rtcview: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'black',
+    margin: 5,
   },
 });
 

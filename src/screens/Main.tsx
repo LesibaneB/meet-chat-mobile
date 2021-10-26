@@ -12,7 +12,7 @@ interface Props {}
 
 const MainScreen = ({}: Props): JSX.Element => {
   const [connectionId, setConnectionId] = useState('');
-  const {sendPreOffer} = useContext(RootStoreContext).messageStore;
+  const {sendPreOffer} = useContext(RootStoreContext).webRTCStore;
   return (
     <Layout style={styles.layout}>
       <Input

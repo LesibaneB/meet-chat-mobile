@@ -1,11 +1,11 @@
 import {SocketService} from '../services/websocket';
-import {MessagesStore} from './messages';
+import {WebRTCStore} from './webRTC-store';
 
 export class RootStore {
-  public messageStore: MessagesStore;
+  public webRTCStore: WebRTCStore;
 
   constructor() {
     const websocket = new SocketService();
-    this.messageStore = new MessagesStore(websocket);
+    this.webRTCStore = new WebRTCStore(websocket);
   }
 }
