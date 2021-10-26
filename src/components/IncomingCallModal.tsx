@@ -7,22 +7,19 @@ import {RootStoreContext} from '../../App';
 import {observer} from 'mobx-react-lite';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import {Avatar, Layout} from '@ui-kitten/components';
-import {Alert, Pressable, Modal, StyleSheet} from 'react-native';
+import {Pressable, Modal, StyleSheet} from 'react-native';
 
 interface Props {}
 
 const IncomingCallModal = ({}: Props): JSX.Element => {
   const {incomingCall, onAcceptCall, onRejectCall} =
-    useContext(RootStoreContext).messageStore;
+    useContext(RootStoreContext).webRTCStore;
 
   return (
     <Modal
       presentationStyle="fullScreen"
       animationType="fade"
-      visible={incomingCall}
-      onRequestClose={() => {
-        Alert.alert('Modal has been closed.');
-      }}>
+      visible={incomingCall}>
       <Layout style={styles.contentLayout}>
         <Avatar
           style={styles.avatar}
